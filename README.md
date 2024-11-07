@@ -36,11 +36,11 @@ Responsive Design: The form is styled using Tailwind CSS, ensuring that it’s m
 # Architecture
 This project follows a component-based architecture, leveraging React for building reusable UI components. The main components are:
 
-1. WebsiteForm
+1. WebsiteForm.jsx
 This is the main container for the form. It manages the state of the form fields and handles form submissions.
 It imports and uses the FormField component to render different fields (like text inputs, file upload, checkboxes).
 
-2. FormField
+2. FormField.jsx
 A reusable form field component for each input element, including the text area with drag-and-drop functionality.
 Manages input changes, drag-and-drop events, and file reading via the FileReader API.
 Supports the drag-and-drop behavior for .txt files and offers a delete option for clearing text.
