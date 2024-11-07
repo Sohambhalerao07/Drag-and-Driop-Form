@@ -24,16 +24,22 @@ The drag-and-drop functionality enhances user experience, and all user data is m
 
 # Features
 Drag-and-Drop File Upload: Users can drag and drop .txt files into the text area. The content of the file is automatically loaded into the text box.
+
 Text Editing: Once the file is dropped, users can edit the contents of the text area as needed.
+
 Delete Functionality: Users can clear the text in the text area with a delete button.
+
 Form Handling: A dynamic form collects various information for a website, including the title, business category, logo, and contact details.
+
 Responsive Design: The form is styled using Tailwind CSS, ensuring that it’s mobile-friendly and responsive.
-Architecture
+
+# Architecture
 This project follows a component-based architecture, leveraging React for building reusable UI components. The main components are:
 
 1. WebsiteForm
 This is the main container for the form. It manages the state of the form fields and handles form submissions.
 It imports and uses the FormField component to render different fields (like text inputs, file upload, checkboxes).
+
 2. FormField
 A reusable form field component for each input element, including the text area with drag-and-drop functionality.
 Manages input changes, drag-and-drop events, and file reading via the FileReader API.
@@ -78,17 +84,28 @@ Open your browser and navigate to http://localhost:3000 to see the form in actio
 
 # Usage
 Website Title: Enter the title of your website or business.
+
 Business Category: Provide the business category (e.g., Local Business).
+
 Sub-domain: Enter a desired sub-domain (e.g., yourwebsite.websites.com).
+
 Contact Information:
+
 Phone Number: Enter your business phone number.
+
 City: Enter the city where your business is located.
+
 Postal Address: Provide your street address.
+
 Postal Code: Enter your postal code.
+
 Logo Upload: Drag and drop a logo image to upload it (this feature is currently only an image drop area).
+
 Show Address Checkbox: Select this if you want to display the address on your website.
+
 Text File Upload: Drag and drop a .txt file into the text area to auto-load the file’s content. You can edit or clear the content.
-Contributing
+
+# Contributing
 If you would like to contribute to this project, follow these steps:
 
 # Fork the repository.
