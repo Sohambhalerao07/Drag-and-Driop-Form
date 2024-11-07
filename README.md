@@ -54,23 +54,6 @@ The form can be extended to send the data to an API or store it in a database.
 Tailwind CSS is used to style the form and make it responsive.
 The design is clean and simple, with a focus on user experience.
 
-# Folder Structure
-bash
-Copy code
-/public
-    index.html
-    /assets (logo, images, etc.)
-/src
-    /components
-        FormField.jsx          # Reusable form field with drag-and-drop functionality
-        WebsiteForm.jsx        # Main form container
-    App.js                    # Main React component
-    index.js                  # Entry point of the application
-    /assets                   # Assets like images, logos, etc.
-/tailwind.config.js          # Tailwind CSS configuration
-/package.json                # Project metadata and dependencies
-README.md                    # Project documentation
-
 # Installation
 Prerequisites
 Node.js and npm are required to run this project. You can download Node.js from here.
